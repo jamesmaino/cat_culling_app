@@ -2,7 +2,7 @@
 ui <- fluidPage(
 
   # App title ----
-  titlePanel("CAT-BE-DEAD"),
+  titlePanel("CAT_CULL_APP"),
 
   # Sidebar layout with input and output definitions ----
   sidebarLayout(
@@ -25,7 +25,7 @@ ui <- fluidPage(
                   label = "Number of replicate simulations:",
                   min = 1,
                   max = 1000,
-                  value = 100, step = 10),
+                  value = 10, step = 10),
       sliderInput(inputId = "tt",
                   label = "Time horizon (years):",
                   min = 0,

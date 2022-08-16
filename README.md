@@ -12,6 +12,8 @@ In the app, slider bars control:
 - the number of replicate simulations to view stochasticity
 - the time horizon in years (with yearly timesteps)
 
+![Screen shot of cat cull app](./img/screenshot.png)
+
 ## Installation
 
 After installing R, install the following packages with the command:
